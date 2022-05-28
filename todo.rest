@@ -1,0 +1,25 @@
+
+### List all Entries
+GET http://localhost:8080/todo-entries
+
+### Post Entry
+POST http://localhost:8080/todo-entries
+Content-Type: application/json
+
+[
+  {
+    "id": "3463517",
+    "title": "Title",
+    "description": null,
+    "done": true,
+    "creationDate": "1975-08-19T23:15:30.000Z",
+    "relevantDate": null,
+    "link": null,
+    "labels": [
+      {
+        "labelName": "My Label",
+        "labelColor": "#FF458567"
+      }
+    ]
+  }
+]
