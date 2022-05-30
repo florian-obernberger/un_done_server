@@ -1,0 +1,8 @@
+# Ignoring this since you have to create it yourself! <3
+hash.json
+
+# Excluding .exe and other binary files from the history
+*.exe
+
+# Excluding .vscode folder
+.vscode/
