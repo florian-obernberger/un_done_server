@@ -27,8 +27,8 @@ func InitServer() *Server {
 }
 
 func (s *Server) routes() {
-	s.HandleFunc("/todo-entries", s.addTodoEntries()).Queries("key").Methods("POST")
-	s.HandleFunc("/todo-entries", s.getTodoEntries()).Queries("key").Methods("GET")
+	s.HandleFunc("/todo-entries", s.addTodoEntries()).Queries("key", "{key:\\w+}").Methods("POST")
+	s.HandleFunc("/todo-entries", s.getTodoEntries()).Queries("key", "{key:\\w+}").Methods("GET")
 }
 
 func (s *Server) addTodoEntries() http.HandlerFunc {

@@ -16,7 +16,7 @@ packages:
     source: hosted
     version: "4.1.0"
   args:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: args
       url: "https://pub.dartlang.org"
@@ -49,7 +49,7 @@ packages:
       name: convert
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.1"
+    version: "3.0.2"
   coverage:
     dependency: transitive
     description:
@@ -64,6 +64,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.2"
+  dbcrypt:
+    dependency: "direct main"
+    description:
+      name: dbcrypt
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   file:
     dependency: transitive
     description:

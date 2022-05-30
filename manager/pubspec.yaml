@@ -1,12 +1,13 @@
-name: cli
+name: manager
 description: Create a new hashed password for the server
 version: 1.0.0
 
 environment:
   sdk: '>=2.17.1 <3.0.0'
 
-# dependencies:
-#   path: ^1.8.0
+dependencies:
+  dbcrypt: ^2.0.0
+  args: ^2.3.1
 
 dev_dependencies:
   lints: ^2.0.0

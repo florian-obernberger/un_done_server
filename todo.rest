@@ -1,9 +1,9 @@
 
 ### List all Entries
-GET http://localhost:8080/todo-entries
+GET http://localhost:8080/todo-entries?key=test
 
 ### Post Entry
-POST http://localhost:8080/todo-entries
+POST http://localhost:8080/todo-entries?key=test
 Content-Type: application/json
 
 [
