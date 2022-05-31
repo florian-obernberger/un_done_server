@@ -2,7 +2,8 @@
 hash.json
 
 # Excluding .exe and other binary files from the history
-*.exe
+build/
 
-# Excluding .vscode folder
+# Folder
 .vscode/
+certs/
